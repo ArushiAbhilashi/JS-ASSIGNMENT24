@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="background">
+
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis repudiandae sit odit blanditiis velit laboriosam,
+        nulla suscipit beatae, dolor perspiciatis deserunt. Nihil nam porro exercitationem asperiores? Voluptates, ex. Temporibus
+        dolore molestias eos veniam vel porro consequatur, excepturi, quo recusandae ea inventore. Debitis, hic, aliquam distinctio
+        perferendis expedita voluptatibus molestias cupiditate inventore quos maiores assumenda quibusdam magnam. Nihil voluptate
+        alias provident tempore veritatis ut quae porro, animi temporibus! Est, omnis voluptas praesentium optio adipisci
+        perferendis ab. Nisi quasi alias illo rem molestias accusamus magnam id, impedit iste amet tempore officiis rerum! Ab 
+        provident accusamus ea ipsum pariatur impedit alias, iste dignissimos dolorem ex ullam vero dolor esse commodi similique!
+        Unde veniam libero accusamus minima nemo, quia nihil sint, facere debitis explicabo doloribus doloremque alias ducimus
+        natus exercitationem modi consequatur commodi. Debitis veritatis facere aspernatur tempore, nesciunt nulla inventore 
+        sit incidunt consequatur, nihil veniam soluta blanditiis similique maxime explicabo consequuntur non. Sequi, aliquam
+        dolores ad tempora ducimus amet necessitatibus numquam quo omnis minima? Eaque soluta voluptatibus distinctio, enim 
+        deleniti ut pariatur labore quis ea molestias officiis tempore dolore voluptatem nisi fuga illo mollitia dolores
+        corrupti rem, blanditiis sit nulla cumque necessitatibus! Nostrum optio nisi eaque reprehenderit excepturi. Assumenda
+        animi officia, similique recusandae dolorem aspernatur rem nemo in ex saepe vero temporibus deserunt! Laborum, 
+        corrupti officiis! Nobis corporis odio eaque. Maxime temporibus perspiciatis, quasi ullam quod incidunt quam 
+        recusandae a ipsum error voluptate provident sunt tenetur mollitia eum nihil. Labore aliquam quae modi reprehenderit
+        eveniet harum assumenda corrupti temporibus. Molestiae nihil mollitia perferendis dolore. Amet ipsum distinctio
+        error cumque aperiam eos, beatae saepe necessitatibus sint ut, enim odit fugit dicta repellendus eligendi iusto. 
+        Consequuntur voluptatibus tempora dolor at atque vero voluptatum impedit, fugiat quidem aperiam sequi inventore
+        perspiciatis porro aut eaque laboriosam beatae totam? Recusandae itaque illum labore dolorem doloribus dolorum
+        quod. Est.
+    </p>
+    <script>
+        let i=0;
+        let doc=document.getElementById("background");
+        let arr=["red","green","pink","cyan","yellow"];
+        function change() {
+            
+            doc.style.backgroundColor=arr[i];
+            i++;
+            if(i>arr.length-1){
+                i=0;
+            }
+            
+            
+        }
+        setInterval(change, 5000);
+        
+       
+    
+        
+    </script>
+</body>
+</html>
